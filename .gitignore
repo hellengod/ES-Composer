@@ -1,0 +1,19 @@
+# Composer
+/vendor/
+/composer.lock
+
+# Dependências do PHP
+*.log
+*.bak
+*.swp
+
+# Arquivos de cache
+/.idea/
+/.vscode/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente
+.env

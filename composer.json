@@ -1,0 +1,16 @@
+{
+    "name": "hellengod/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Hellen Bianchini",
+            "email": "hellenbiangod@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/dom-crawler" : "^6.4",
+        "symfony/css-selector": "^7.2"
+    }
+}
