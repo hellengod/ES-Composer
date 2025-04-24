@@ -8,7 +8,6 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class Buscador
 {
-
     private $httpClient;
     private $crawler;
     public function __construct(ClientInterface $httpClient, Crawler $crawler)
@@ -19,7 +18,6 @@ class Buscador
 
     public function buscar(string $url): array
     {
-
         $resposta = $this->httpClient->request('GET', $url);
 
         $html = $resposta->getBody();
@@ -30,9 +28,7 @@ class Buscador
 
         foreach ($elementosCursos as $elemento) {
             $cursos[] = $elemento->textContent;
-
         }
-
         return $cursos;
     }
 }
