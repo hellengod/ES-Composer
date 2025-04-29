@@ -41,5 +41,9 @@
     },
     "scripts-descriptions": {
         "check": "Roda as verificacoes do codigo PHPCS PHPUNIT"
-    }
+    },
+    "license": "GPL-3.0",
+    "bin": [
+        "buscar-cursos.php"
+    ]
 }
